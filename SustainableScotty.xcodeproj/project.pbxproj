@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD5DB0A2706612100812705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB092706612100812705 /* AppDelegate.swift */; };
+		3AD5DB0C2706612100812705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB0B2706612100812705 /* SceneDelegate.swift */; };
+		3AD5DB0E2706612100812705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB0D2706612100812705 /* ViewController.swift */; };
+		3AD5DB112706612100812705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5DB0F2706612100812705 /* Main.storyboard */; };
+		3AD5DB132706612300812705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5DB122706612300812705 /* Assets.xcassets */; };
+		3AD5DB162706612300812705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5DB142706612300812705 /* LaunchScreen.storyboard */; };
+		3AD5DB212706612400812705 /* SustainableScottyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB202706612400812705 /* SustainableScottyTests.swift */; };
+		3AD5DB2B2706612400812705 /* SustainableScottyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB2A2706612400812705 /* SustainableScottyUITests.swift */; };
+		3AD5DB2D2706612400812705 /* SustainableScottyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB2C2706612400812705 /* SustainableScottyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AD5DB1D2706612400812705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AD5DAFE2706612100812705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD5DB052706612100812705;
+			remoteInfo = SustainableScotty;
+		};
+		3AD5DB272706612400812705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AD5DAFE2706612100812705 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD5DB052706612100812705;
+			remoteInfo = SustainableScotty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AD5DB062706612100812705 /* SustainableScotty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainableScotty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD5DB092706612100812705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AD5DB0B2706612100812705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3AD5DB0D2706612100812705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AD5DB102706612100812705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AD5DB122706612300812705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AD5DB152706612300812705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AD5DB172706612300812705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AD5DB1C2706612400812705 /* SustainableScottyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableScottyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD5DB202706612400812705 /* SustainableScottyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableScottyTests.swift; sourceTree = "<group>"; };
+		3AD5DB262706612400812705 /* SustainableScottyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableScottyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD5DB2A2706612400812705 /* SustainableScottyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableScottyUITests.swift; sourceTree = "<group>"; };
+		3AD5DB2C2706612400812705 /* SustainableScottyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableScottyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AD5DB032706612100812705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5DB192706612400812705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5DB232706612400812705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AD5DAFD2706612100812705 = {
+			isa = PBXGroup;
+			children = (
+				3AD5DB082706612100812705 /* SustainableScotty */,
+				3AD5DB1F2706612400812705 /* SustainableScottyTests */,
+				3AD5DB292706612400812705 /* SustainableScottyUITests */,
+				3AD5DB072706612100812705 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AD5DB072706612100812705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5DB062706612100812705 /* SustainableScotty.app */,
+				3AD5DB1C2706612400812705 /* SustainableScottyTests.xctest */,
+				3AD5DB262706612400812705 /* SustainableScottyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AD5DB082706612100812705 /* SustainableScotty */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5DB092706612100812705 /* AppDelegate.swift */,
+				3AD5DB0B2706612100812705 /* SceneDelegate.swift */,
+				3AD5DB0D2706612100812705 /* ViewController.swift */,
+				3AD5DB0F2706612100812705 /* Main.storyboard */,
+				3AD5DB122706612300812705 /* Assets.xcassets */,
+				3AD5DB142706612300812705 /* LaunchScreen.storyboard */,
+				3AD5DB172706612300812705 /* Info.plist */,
+			);
+			path = SustainableScotty;
+			sourceTree = "<group>";
+		};
+		3AD5DB1F2706612400812705 /* SustainableScottyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5DB202706612400812705 /* SustainableScottyTests.swift */,
+			);
+			path = SustainableScottyTests;
+			sourceTree = "<group>";
+		};
+		3AD5DB292706612400812705 /* SustainableScottyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5DB2A2706612400812705 /* SustainableScottyUITests.swift */,
+				3AD5DB2C2706612400812705 /* SustainableScottyUITestsLaunchTests.swift */,
+			);
+			path = SustainableScottyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AD5DB052706612100812705 /* SustainableScotty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD5DB302706612400812705 /* Build configuration list for PBXNativeTarget "SustainableScotty" */;
+			buildPhases = (
+				3AD5DB022706612100812705 /* Sources */,
+				3AD5DB032706612100812705 /* Frameworks */,
+				3AD5DB042706612100812705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SustainableScotty;
+			productName = SustainableScotty;
+			productReference = 3AD5DB062706612100812705 /* SustainableScotty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AD5DB1B2706612400812705 /* SustainableScottyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD5DB332706612400812705 /* Build configuration list for PBXNativeTarget "SustainableScottyTests" */;
+			buildPhases = (
+				3AD5DB182706612400812705 /* Sources */,
+				3AD5DB192706612400812705 /* Frameworks */,
+				3AD5DB1A2706612400812705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD5DB1E2706612400812705 /* PBXTargetDependency */,
+			);
+			name = SustainableScottyTests;
+			productName = SustainableScottyTests;
+			productReference = 3AD5DB1C2706612400812705 /* SustainableScottyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AD5DB252706612400812705 /* SustainableScottyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD5DB362706612400812705 /* Build configuration list for PBXNativeTarget "SustainableScottyUITests" */;
+			buildPhases = (
+				3AD5DB222706612400812705 /* Sources */,
+				3AD5DB232706612400812705 /* Frameworks */,
+				3AD5DB242706612400812705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD5DB282706612400812705 /* PBXTargetDependency */,
+			);
+			name = SustainableScottyUITests;
+			productName = SustainableScottyUITests;
+			productReference = 3AD5DB262706612400812705 /* SustainableScottyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AD5DAFE2706612100812705 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3AD5DB052706612100812705 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3AD5DB1B2706612400812705 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3AD5DB052706612100812705;
+					};
+					3AD5DB252706612400812705 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3AD5DB052706612100812705;
+					};
+				};
+			};
+			buildConfigurationList = 3AD5DB012706612100812705 /* Build configuration list for PBXProject "SustainableScotty" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AD5DAFD2706612100812705;
+			productRefGroup = 3AD5DB072706612100812705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AD5DB052706612100812705 /* SustainableScotty */,
+				3AD5DB1B2706612400812705 /* SustainableScottyTests */,
+				3AD5DB252706612400812705 /* SustainableScottyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AD5DB042706612100812705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5DB162706612300812705 /* LaunchScreen.storyboard in Resources */,
+				3AD5DB132706612300812705 /* Assets.xcassets in Resources */,
+				3AD5DB112706612100812705 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5DB1A2706612400812705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5DB242706612400812705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AD5DB022706612100812705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5DB0E2706612100812705 /* ViewController.swift in Sources */,
+				3AD5DB0A2706612100812705 /* AppDelegate.swift in Sources */,
+				3AD5DB0C2706612100812705 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5DB182706612400812705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5DB212706612400812705 /* SustainableScottyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5DB222706612400812705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5DB2D2706612400812705 /* SustainableScottyUITestsLaunchTests.swift in Sources */,
+				3AD5DB2B2706612400812705 /* SustainableScottyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AD5DB1E2706612400812705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD5DB052706612100812705 /* SustainableScotty */;
+			targetProxy = 3AD5DB1D2706612400812705 /* PBXContainerItemProxy */;
+		};
+		3AD5DB282706612400812705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD5DB052706612100812705 /* SustainableScotty */;
+			targetProxy = 3AD5DB272706612400812705 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AD5DB0F2706612100812705 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD5DB102706612100812705 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AD5DB142706612300812705 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD5DB152706612300812705 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AD5DB2E2706612400812705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AD5DB2F2706612400812705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AD5DB312706612400812705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SustainableScotty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophialau.SustainableScotty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AD5DB322706612400812705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SustainableScotty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophialau.SustainableScotty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AD5DB342706612400812705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophialau.SustainableScottyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SustainableScotty.app/SustainableScotty";
+			};
+			name = Debug;
+		};
+		3AD5DB352706612400812705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophialau.SustainableScottyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SustainableScotty.app/SustainableScotty";
+			};
+			name = Release;
+		};
+		3AD5DB372706612400812705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophialau.SustainableScottyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SustainableScotty;
+			};
+			name = Debug;
+		};
+		3AD5DB382706612400812705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophialau.SustainableScottyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SustainableScotty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AD5DB012706612100812705 /* Build configuration list for PBXProject "SustainableScotty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5DB2E2706612400812705 /* Debug */,
+				3AD5DB2F2706612400812705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD5DB302706612400812705 /* Build configuration list for PBXNativeTarget "SustainableScotty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5DB312706612400812705 /* Debug */,
+				3AD5DB322706612400812705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD5DB332706612400812705 /* Build configuration list for PBXNativeTarget "SustainableScottyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5DB342706612400812705 /* Debug */,
+				3AD5DB352706612400812705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD5DB362706612400812705 /* Build configuration list for PBXNativeTarget "SustainableScottyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5DB372706612400812705 /* Debug */,
+				3AD5DB382706612400812705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AD5DAFE2706612100812705 /* Project object */;
+}
