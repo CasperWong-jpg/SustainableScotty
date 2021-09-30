@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		3AD5DB0A2706612100812705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB092706612100812705 /* AppDelegate.swift */; };
 		3AD5DB0C2706612100812705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB0B2706612100812705 /* SceneDelegate.swift */; };
-		3AD5DB0E2706612100812705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB0D2706612100812705 /* ViewController.swift */; };
+		3AD5DB0E2706612100812705 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB0D2706612100812705 /* StartViewController.swift */; };
 		3AD5DB112706612100812705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5DB0F2706612100812705 /* Main.storyboard */; };
 		3AD5DB132706612300812705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5DB122706612300812705 /* Assets.xcassets */; };
 		3AD5DB162706612300812705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5DB142706612300812705 /* LaunchScreen.storyboard */; };
 		3AD5DB212706612400812705 /* SustainableScottyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB202706612400812705 /* SustainableScottyTests.swift */; };
 		3AD5DB2B2706612400812705 /* SustainableScottyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB2A2706612400812705 /* SustainableScottyUITests.swift */; };
 		3AD5DB2D2706612400812705 /* SustainableScottyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB2C2706612400812705 /* SustainableScottyUITestsLaunchTests.swift */; };
+		3AF2902D27066C5F002AAC02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2902C27066C5F002AAC02 /* HomeViewController.swift */; };
+		3AF2902F27066C6D002AAC02 /* ActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2902E27066C6D002AAC02 /* ActionsViewController.swift */; };
+		3AF2903127066C7C002AAC02 /* CommunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */; };
+		3AF2903327066C87002AAC02 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903227066C87002AAC02 /* RewardsViewController.swift */; };
+		3AF2903527066C9B002AAC02 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903427066C9B002AAC02 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		3AD5DB062706612100812705 /* SustainableScotty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainableScotty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD5DB092706612100812705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AD5DB0B2706612100812705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3AD5DB0D2706612100812705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AD5DB0D2706612100812705 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		3AD5DB102706612100812705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AD5DB122706612300812705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AD5DB152706612300812705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		3AD5DB262706612400812705 /* SustainableScottyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableScottyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD5DB2A2706612400812705 /* SustainableScottyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableScottyUITests.swift; sourceTree = "<group>"; };
 		3AD5DB2C2706612400812705 /* SustainableScottyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableScottyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AF2902C27066C5F002AAC02 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3AF2902E27066C6D002AAC02 /* ActionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsViewController.swift; sourceTree = "<group>"; };
+		3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesViewController.swift; sourceTree = "<group>"; };
+		3AF2903227066C87002AAC02 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		3AF2903427066C9B002AAC02 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,9 @@
 		3AD5DB082706612100812705 /* SustainableScotty */ = {
 			isa = PBXGroup;
 			children = (
+				3AF2902927066B9C002AAC02 /* ViewControllers */,
 				3AD5DB092706612100812705 /* AppDelegate.swift */,
 				3AD5DB0B2706612100812705 /* SceneDelegate.swift */,
-				3AD5DB0D2706612100812705 /* ViewController.swift */,
 				3AD5DB0F2706612100812705 /* Main.storyboard */,
 				3AD5DB122706612300812705 /* Assets.xcassets */,
 				3AD5DB142706612300812705 /* LaunchScreen.storyboard */,
@@ -125,6 +135,19 @@
 				3AD5DB2C2706612400812705 /* SustainableScottyUITestsLaunchTests.swift */,
 			);
 			path = SustainableScottyUITests;
+			sourceTree = "<group>";
+		};
+		3AF2902927066B9C002AAC02 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5DB0D2706612100812705 /* StartViewController.swift */,
+				3AF2902C27066C5F002AAC02 /* HomeViewController.swift */,
+				3AF2902E27066C6D002AAC02 /* ActionsViewController.swift */,
+				3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */,
+				3AF2903227066C87002AAC02 /* RewardsViewController.swift */,
+				3AF2903427066C9B002AAC02 /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD5DB0E2706612100812705 /* ViewController.swift in Sources */,
+				3AD5DB0E2706612100812705 /* StartViewController.swift in Sources */,
+				3AF2903327066C87002AAC02 /* RewardsViewController.swift in Sources */,
 				3AD5DB0A2706612100812705 /* AppDelegate.swift in Sources */,
 				3AD5DB0C2706612100812705 /* SceneDelegate.swift in Sources */,
+				3AF2902F27066C6D002AAC02 /* ActionsViewController.swift in Sources */,
+				3AF2903127066C7C002AAC02 /* CommunitiesViewController.swift in Sources */,
+				3AF2903527066C9B002AAC02 /* ProfileViewController.swift in Sources */,
+				3AF2902D27066C5F002AAC02 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
