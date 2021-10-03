@@ -11,7 +11,6 @@
         <!--Navigation Controller-->
         <scene sceneID="Ryo-Cf-XGe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7rd-0y-QC4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="ChA-6D-dcP" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="F9O-Mo-zc4">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -21,6 +20,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="us7-Pd-VDK"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7rd-0y-QC4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1487" y="-210"/>
         </scene>
@@ -90,7 +90,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="ZeQ-ew-Dnq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hPs-Ph-Bgg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="dSm-Tc-mZX" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="O98-La-caN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -105,6 +104,7 @@
                         <segue destination="XCY-gF-JGI" kind="relationship" relationship="viewControllers" id="TjO-fR-XfM"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hPs-Ph-Bgg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1670" y="634"/>
         </scene>
@@ -158,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="872" y="1557"/>
         </scene>
-        <!--Item-->
+        <!--Communities Nav Controller-->
         <scene sceneID="Btb-nX-LY0">
             <objects>
-                <navigationController id="AnZ-kg-v7R" sceneMemberID="viewController">
+                <navigationController title="Communities Nav Controller" id="AnZ-kg-v7R" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="lVh-yX-2Tu"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lR6-vc-tSa">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

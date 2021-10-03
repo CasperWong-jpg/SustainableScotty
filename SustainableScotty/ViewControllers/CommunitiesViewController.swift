@@ -6,9 +6,14 @@
 //
 
 import UIKit
+import Firebase
 
 class CommunitiesViewController: UIViewController {
-
+    
+    let db = Firestore.firestore()
+    
+    // var communities: [Community] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
