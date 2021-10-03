@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5CEE19270A4CFD005AA8CA /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CEE18270A4CFD005AA8CA /* LogInViewController.swift */; };
+		3A5CEE1B270A4D20005AA8CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CEE1A270A4D20005AA8CA /* SignUpViewController.swift */; };
 		3AD5DB0A2706612100812705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB092706612100812705 /* AppDelegate.swift */; };
 		3AD5DB0C2706612100812705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB0B2706612100812705 /* SceneDelegate.swift */; };
 		3AD5DB0E2706612100812705 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5DB0D2706612100812705 /* StartViewController.swift */; };
@@ -47,6 +49,8 @@
 /* Begin PBXFileReference section */
 		00DB14C42849B1511FBB97EF /* Pods_SustainableScottyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScottyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF70E66BDCEC515C45ECA56 /* Pods-SustainableScottyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScottyTests.release.xcconfig"; path = "Target Support Files/Pods-SustainableScottyTests/Pods-SustainableScottyTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A5CEE18270A4CFD005AA8CA /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		3A5CEE1A270A4D20005AA8CA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3AD5DB062706612100812705 /* SustainableScotty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainableScotty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD5DB092706612100812705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AD5DB0B2706612100812705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5CEE17270A4C07005AA8CA /* StartUpViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5DB0D2706612100812705 /* StartViewController.swift */,
+				3A5CEE18270A4CFD005AA8CA /* LogInViewController.swift */,
+				3A5CEE1A270A4D20005AA8CA /* SignUpViewController.swift */,
+			);
+			path = StartUpViewControllers;
+			sourceTree = "<group>";
+		};
+		3A5CEE1C270A4D45005AA8CA /* CommunitiesViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */,
+			);
+			path = CommunitiesViewControllers;
+			sourceTree = "<group>";
+		};
+		3A5CEE1D270A4D6E005AA8CA /* RewardsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AF2903227066C87002AAC02 /* RewardsViewController.swift */,
+			);
+			path = RewardsViewControllers;
+			sourceTree = "<group>";
+		};
+		3A5CEE1E270A4D85005AA8CA /* ProfileViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AF2903427066C9B002AAC02 /* ProfileViewController.swift */,
+			);
+			path = ProfileViewControllers;
+			sourceTree = "<group>";
+		};
+		3A5CEE1F270A4D99005AA8CA /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AF2902C27066C5F002AAC02 /* HomeViewController.swift */,
+			);
+			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		3A5CEE20270A4DAC005AA8CA /* ActionsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AF2902E27066C6D002AAC02 /* ActionsViewController.swift */,
+			);
+			path = ActionsViewControllers;
+			sourceTree = "<group>";
+		};
 		3AD5DAFD2706612100812705 = {
 			isa = PBXGroup;
 			children = (
@@ -160,12 +214,12 @@
 		3AF2902927066B9C002AAC02 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3AD5DB0D2706612100812705 /* StartViewController.swift */,
-				3AF2902C27066C5F002AAC02 /* HomeViewController.swift */,
-				3AF2902E27066C6D002AAC02 /* ActionsViewController.swift */,
-				3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */,
-				3AF2903227066C87002AAC02 /* RewardsViewController.swift */,
-				3AF2903427066C9B002AAC02 /* ProfileViewController.swift */,
+				3A5CEE17270A4C07005AA8CA /* StartUpViewControllers */,
+				3A5CEE1F270A4D99005AA8CA /* HomeViewControllers */,
+				3A5CEE20270A4DAC005AA8CA /* ActionsViewControllers */,
+				3A5CEE1C270A4D45005AA8CA /* CommunitiesViewControllers */,
+				3A5CEE1D270A4D6E005AA8CA /* RewardsViewControllers */,
+				3A5CEE1E270A4D85005AA8CA /* ProfileViewControllers */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -190,7 +244,6 @@
 				A52518A41B47996F1575B92B /* Pods-SustainableScottyTests.debug.xcconfig */,
 				0AF70E66BDCEC515C45ECA56 /* Pods-SustainableScottyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -436,7 +489,9 @@
 			files = (
 				3AD5DB0E2706612100812705 /* StartViewController.swift in Sources */,
 				3AF2903327066C87002AAC02 /* RewardsViewController.swift in Sources */,
+				3A5CEE19270A4CFD005AA8CA /* LogInViewController.swift in Sources */,
 				3AD5DB0A2706612100812705 /* AppDelegate.swift in Sources */,
+				3A5CEE1B270A4D20005AA8CA /* SignUpViewController.swift in Sources */,
 				3AD5DB0C2706612100812705 /* SceneDelegate.swift in Sources */,
 				3AF2902F27066C6D002AAC02 /* ActionsViewController.swift in Sources */,
 				3AF2903127066C7C002AAC02 /* CommunitiesViewController.swift in Sources */,

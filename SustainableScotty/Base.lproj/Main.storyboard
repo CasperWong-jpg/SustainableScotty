@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="-1487" y="-210"/>
         </scene>
-        <!--View Controller-->
+        <!--Start View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SustainableScotty" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="StartViewController" customModule="SustainableScotty" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="-568.1159420289855" y="-210.26785714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Log In View Controller-->
         <scene sceneID="y1D-Wy-ZFY">
             <objects>
-                <viewController id="o6c-5y-crD" sceneMemberID="viewController">
+                <viewController id="o6c-5y-crD" customClass="LogInViewController" customModule="SustainableScotty" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yLz-bF-8VX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -273,10 +273,10 @@
             </objects>
             <point key="canvasLocation" x="3396" y="2273"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="Quf-1S-y1S">
             <objects>
-                <viewController id="NE3-qe-ltl" sceneMemberID="viewController">
+                <viewController id="NE3-qe-ltl" customClass="SignUpViewController" customModule="SustainableScotty" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jDL-iR-lJJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
