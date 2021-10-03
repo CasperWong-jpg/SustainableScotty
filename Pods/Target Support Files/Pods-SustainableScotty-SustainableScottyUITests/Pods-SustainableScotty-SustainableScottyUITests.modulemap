@@ -1,0 +1,6 @@
+framework module Pods_SustainableScotty_SustainableScottyUITests {
+  umbrella header "Pods-SustainableScotty-SustainableScottyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
