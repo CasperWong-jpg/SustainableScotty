@@ -10,12 +10,24 @@ import Firebase
 
 class CommunitiesViewController: UIViewController {
     
+    
+    @IBOutlet weak var SearchCommunitiesButton: UIButton!
+    @IBOutlet weak var CreateCommunitiesButton: UIButton!
+    @IBOutlet weak var AllCommunitiesButton: UIButton!
+    
+    @IBOutlet weak var CommunitiesTableView: UITableView!
+    
     let db = Firestore.firestore()
     
-    // var communities: [Community] = []
+    var communities: [Community] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Makes buttons rounded :)
+        SearchCommunitiesButton.circleCorner()
+        CreateCommunitiesButton.circleCorner()
+        AllCommunitiesButton.circleCorner()
 
         // Do any additional setup after loading the view.
     }
