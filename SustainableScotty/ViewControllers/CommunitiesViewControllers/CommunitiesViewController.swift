@@ -29,18 +29,36 @@ class CommunitiesViewController: UIViewController {
         CreateCommunitiesButton.circleCorner()
         AllCommunitiesButton.circleCorner()
 
-        // Do any additional setup after loading the view.
+    }
+}
+
+
+extension CommunitiesViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return communities.count
     }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.CommCellIdentifier, for: indexPath) as! CommunityCellTableViewCell
+        // cell.header.text = communities[indexPath.row].title
+        // cell.numUsers.text = "Size:  \(communities[indexPath.row].numUsers)"
+        return cell
+    }
+}
 
-    /*
-    // MARK: - Navigation
+extension CommunitiesViewController: UITableViewDelegate{
+    var allowsSelectionDuringEditing: Bool { true }
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "SwitchLeaderboard", sender: self)
+    }
+    
+   /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if let destination = segue.destination as? SpecificLeaderboard {
+            destination.CommunityName = communities[(tableView.indexPathForSelectedRow?.row)!].title
+            tableView.deselectRow(at: tableView.indexPathForSelectedRow!, animated: true)
+        }
     }
     */
-
 }
