@@ -8,10 +8,16 @@
 import UIKit
 
 class CommunityCellTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var header: UILabel!
+    
+    @IBOutlet weak var numUsers: UILabel!
+    
+    @IBOutlet weak var communityImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        communityImage.layer.cornerRadius = communityImage.frame.size.height / 5
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -19,5 +25,4 @@ class CommunityCellTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 }

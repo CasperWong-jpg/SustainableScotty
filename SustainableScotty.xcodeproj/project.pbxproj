@@ -26,8 +26,8 @@
 		3AF2903527066C9B002AAC02 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903427066C9B002AAC02 /* ProfileViewController.swift */; };
 		975EF3022709702D00406009 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 975EF3012709702D00406009 /* GoogleService-Info.plist */; };
 		97B6959D270FAEE300232299 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959C270FAEE300232299 /* Structs.swift */; };
-		97B695A0270FAFF900232299 /* CommunityCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959E270FAFF900232299 /* CommunityCellTableViewCell.swift */; };
-		97B695A1270FAFF900232299 /* CommunityCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97B6959F270FAFF900232299 /* CommunityCellTableViewCell.xib */; };
+		97B695A0270FAFF900232299 /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959E270FAFF900232299 /* CommunityCell.swift */; };
+		97B695A1270FAFF900232299 /* CommunityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97B6959F270FAFF900232299 /* CommunityCell.xib */; };
 		B0B814897BE3A3DC7667B31F /* Pods_SustainableScotty_SustainableScottyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640533366CEBA72ECD0D7CED /* Pods_SustainableScotty_SustainableScottyUITests.framework */; };
 		CB29765A6D85437457567678 /* Pods_SustainableScottyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DB14C42849B1511FBB97EF /* Pods_SustainableScottyTests.framework */; };
 		E6A95414A4D13C7E8ED32034 /* Pods_SustainableScotty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBC5937C1CD1942DC4457B9 /* Pods_SustainableScotty.framework */; };
@@ -80,8 +80,8 @@
 		88CEA466815446B6D086C90D /* Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		975EF3012709702D00406009 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		97B6959C270FAEE300232299 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
-		97B6959E270FAFF900232299 /* CommunityCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCellTableViewCell.swift; sourceTree = "<group>"; };
-		97B6959F270FAFF900232299 /* CommunityCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunityCellTableViewCell.xib; sourceTree = "<group>"; };
+		97B6959E270FAFF900232299 /* CommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCell.swift; sourceTree = "<group>"; };
+		97B6959F270FAFF900232299 /* CommunityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunityCell.xib; sourceTree = "<group>"; };
 		A52518A41B47996F1575B92B /* Pods-SustainableScottyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScottyTests.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScottyTests/Pods-SustainableScottyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABBC5937C1CD1942DC4457B9 /* Pods_SustainableScotty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScotty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1570AD8C1577E7DC5470543 /* Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig"; path = "Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -254,8 +254,8 @@
 		97B6959B270FADEB00232299 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				97B6959E270FAFF900232299 /* CommunityCellTableViewCell.swift */,
-				97B6959F270FAFF900232299 /* CommunityCellTableViewCell.xib */,
+				97B6959E270FAFF900232299 /* CommunityCell.swift */,
+				97B6959F270FAFF900232299 /* CommunityCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -395,7 +395,7 @@
 				3AD5DB162706612300812705 /* LaunchScreen.storyboard in Resources */,
 				975EF3022709702D00406009 /* GoogleService-Info.plist in Resources */,
 				3AD5DB132706612300812705 /* Assets.xcassets in Resources */,
-				97B695A1270FAFF900232299 /* CommunityCellTableViewCell.xib in Resources */,
+				97B695A1270FAFF900232299 /* CommunityCell.xib in Resources */,
 				3AD5DB112706612100812705 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,7 +534,7 @@
 				3AD5DB0C2706612100812705 /* SceneDelegate.swift in Sources */,
 				3AF2902F27066C6D002AAC02 /* ActionsViewController.swift in Sources */,
 				3AF2903127066C7C002AAC02 /* CommunitiesViewController.swift in Sources */,
-				97B695A0270FAFF900232299 /* CommunityCellTableViewCell.swift in Sources */,
+				97B695A0270FAFF900232299 /* CommunityCell.swift in Sources */,
 				3AF2903527066C9B002AAC02 /* ProfileViewController.swift in Sources */,
 				3AF2902D27066C5F002AAC02 /* HomeViewController.swift in Sources */,
 			);
