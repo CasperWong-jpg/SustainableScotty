@@ -26,14 +26,15 @@ class CommunitiesViewController: UIViewController {
         // Makes buttons rounded :)
         SearchCommunitiesButton.circleCorner()
         CreateCommunitiesButton.circleCorner()
-        AllCommunitiesButton.circleCorner()
+        // AllCommunitiesButton.circleCorner()
         
         // Load and format table data (leaderboard items)
         loadCommunities()
         
         CommunitiesTableView.dataSource = self
         CommunitiesTableView.delegate = self
-
+        
+        CommunitiesTableView.register(UINib(nibName: K.CommNibName, bundle: nil), forCellReuseIdentifier: K.CommCellIdentifier)
     }
     
     func loadCommunities() {
@@ -71,7 +72,7 @@ extension CommunitiesViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: K.CommCellIdentifier, for: indexPath) as! CommunityCellTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.CommCellIdentifier, for: indexPath) as! CommunityCell
         cell.header.text = communities[indexPath.row].title
         cell.numUsers.text = "Size:  \(communities[indexPath.row].numUsers)"
         return cell
@@ -85,7 +86,6 @@ extension CommunitiesViewController: UITableViewDelegate{
         performSegue(withIdentifier: "SwitchLeaderboard", sender: self)
     }
     
-   
     /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? SpecificLeaderboard {
@@ -93,6 +93,7 @@ extension CommunitiesViewController: UITableViewDelegate{
             tableView.deselectRow(at: tableView.indexPathForSelectedRow!, animated: true)
         }
     }
-    */
+     */
+    
     
 }

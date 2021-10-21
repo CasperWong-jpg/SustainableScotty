@@ -1,5 +1,5 @@
 //
-//  CommunityCellTableViewCell.swift
+//  CommunityCell.swift
 //  SustainableScotty
 //
 //  Created by Casper Wong on 10/7/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CommunityCellTableViewCell: UITableViewCell {
+class CommunityCell: UITableViewCell {
     
     @IBOutlet weak var header: UILabel!
     

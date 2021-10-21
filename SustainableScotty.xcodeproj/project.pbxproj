@@ -24,13 +24,14 @@
 		3AF2903127066C7C002AAC02 /* CommunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */; };
 		3AF2903327066C87002AAC02 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903227066C87002AAC02 /* RewardsViewController.swift */; };
 		3AF2903527066C9B002AAC02 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903427066C9B002AAC02 /* ProfileViewController.swift */; };
-		975EF3022709702D00406009 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 975EF3012709702D00406009 /* GoogleService-Info.plist */; };
+		973829DC272211640000CFFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 973829DB272211640000CFFC /* GoogleService-Info.plist */; };
+		97A58C6F2722179500FDE07C /* AllCommunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */; };
 		97B6959D270FAEE300232299 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959C270FAEE300232299 /* Structs.swift */; };
 		97B695A0270FAFF900232299 /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959E270FAFF900232299 /* CommunityCell.swift */; };
 		97B695A1270FAFF900232299 /* CommunityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97B6959F270FAFF900232299 /* CommunityCell.xib */; };
-		B0B814897BE3A3DC7667B31F /* Pods_SustainableScotty_SustainableScottyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640533366CEBA72ECD0D7CED /* Pods_SustainableScotty_SustainableScottyUITests.framework */; };
-		CB29765A6D85437457567678 /* Pods_SustainableScottyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DB14C42849B1511FBB97EF /* Pods_SustainableScottyTests.framework */; };
-		E6A95414A4D13C7E8ED32034 /* Pods_SustainableScotty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBC5937C1CD1942DC4457B9 /* Pods_SustainableScotty.framework */; };
+		C201B7900383CD539CD986F0 /* Pods_SustainableScottyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74413B380221D53E6AA0B204 /* Pods_SustainableScottyTests.framework */; };
+		E240E0A2B3AA110FB458C09A /* Pods_SustainableScotty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9183B12AC8B02734F419CF18 /* Pods_SustainableScotty.framework */; };
+		EFCE2610B59B21159B272C0D /* Pods_SustainableScotty_SustainableScottyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002942D0F8B05745EC1736D3 /* Pods_SustainableScotty_SustainableScottyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00DB14C42849B1511FBB97EF /* Pods_SustainableScottyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScottyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AF70E66BDCEC515C45ECA56 /* Pods-SustainableScottyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScottyTests.release.xcconfig"; path = "Target Support Files/Pods-SustainableScottyTests/Pods-SustainableScottyTests.release.xcconfig"; sourceTree = "<group>"; };
+		002942D0F8B05745EC1736D3 /* Pods_SustainableScotty_SustainableScottyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScotty_SustainableScottyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		225CF34A6EA11EE22FFC6517 /* Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig"; path = "Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3A5CEE18270A4CFD005AA8CA /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		3A5CEE1A270A4D20005AA8CA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3A5CEE22270A5790005AA8CA /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -74,17 +75,18 @@
 		3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesViewController.swift; sourceTree = "<group>"; };
 		3AF2903227066C87002AAC02 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
 		3AF2903427066C9B002AAC02 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		45A3FB60865F468C658842E9 /* Pods-SustainableScotty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScotty/Pods-SustainableScotty.debug.xcconfig"; sourceTree = "<group>"; };
-		57B2899D4C5923F246DE2D73 /* Pods-SustainableScotty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty.release.xcconfig"; path = "Target Support Files/Pods-SustainableScotty/Pods-SustainableScotty.release.xcconfig"; sourceTree = "<group>"; };
-		640533366CEBA72ECD0D7CED /* Pods_SustainableScotty_SustainableScottyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScotty_SustainableScottyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88CEA466815446B6D086C90D /* Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		975EF3012709702D00406009 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		41387A1440279D05AB1DD6EF /* Pods-SustainableScotty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScotty/Pods-SustainableScotty.debug.xcconfig"; sourceTree = "<group>"; };
+		6E6807F89FDF4D975A7C0DBD /* Pods-SustainableScottyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScottyTests.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScottyTests/Pods-SustainableScottyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74413B380221D53E6AA0B204 /* Pods_SustainableScottyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScottyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D2AFF2B63983297BF8F59F /* Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9183B12AC8B02734F419CF18 /* Pods_SustainableScotty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScotty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973829DB272211640000CFFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCommunitiesViewController.swift; sourceTree = "<group>"; };
 		97B6959C270FAEE300232299 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		97B6959E270FAFF900232299 /* CommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCell.swift; sourceTree = "<group>"; };
 		97B6959F270FAFF900232299 /* CommunityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunityCell.xib; sourceTree = "<group>"; };
-		A52518A41B47996F1575B92B /* Pods-SustainableScottyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScottyTests.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScottyTests/Pods-SustainableScottyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ABBC5937C1CD1942DC4457B9 /* Pods_SustainableScotty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScotty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1570AD8C1577E7DC5470543 /* Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig"; path = "Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C29A740391045D11747C4D24 /* Pods-SustainableScotty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty.release.xcconfig"; path = "Target Support Files/Pods-SustainableScotty/Pods-SustainableScotty.release.xcconfig"; sourceTree = "<group>"; };
+		C35F868BAA5BEF2AEF750712 /* Pods-SustainableScottyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScottyTests.release.xcconfig"; path = "Target Support Files/Pods-SustainableScottyTests/Pods-SustainableScottyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6A95414A4D13C7E8ED32034 /* Pods_SustainableScotty.framework in Frameworks */,
+				E240E0A2B3AA110FB458C09A /* Pods_SustainableScotty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB29765A6D85437457567678 /* Pods_SustainableScottyTests.framework in Frameworks */,
+				C201B7900383CD539CD986F0 /* Pods_SustainableScottyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B814897BE3A3DC7667B31F /* Pods_SustainableScotty_SustainableScottyUITests.framework in Frameworks */,
+				EFCE2610B59B21159B272C0D /* Pods_SustainableScotty_SustainableScottyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */,
+				97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */,
 			);
 			path = CommunitiesViewControllers;
 			sourceTree = "<group>";
@@ -181,7 +184,7 @@
 				3AD5DB292706612400812705 /* SustainableScottyUITests */,
 				3AD5DB072706612100812705 /* Products */,
 				FF747C041ECB1E240E6DBA3B /* Pods */,
-				F9D75F458C8ACF8C81C51390 /* Frameworks */,
+				564975A9C6D2B7F194A8E2F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,7 +211,7 @@
 				3AD5DB122706612300812705 /* Assets.xcassets */,
 				3AD5DB142706612300812705 /* LaunchScreen.storyboard */,
 				3AD5DB172706612300812705 /* Info.plist */,
-				975EF3012709702D00406009 /* GoogleService-Info.plist */,
+				973829DB272211640000CFFC /* GoogleService-Info.plist */,
 			);
 			path = SustainableScotty;
 			sourceTree = "<group>";
@@ -243,6 +246,16 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		564975A9C6D2B7F194A8E2F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9183B12AC8B02734F419CF18 /* Pods_SustainableScotty.framework */,
+				002942D0F8B05745EC1736D3 /* Pods_SustainableScotty_SustainableScottyUITests.framework */,
+				74413B380221D53E6AA0B204 /* Pods_SustainableScottyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		97B6959A270FAACB00232299 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,25 +273,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		F9D75F458C8ACF8C81C51390 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ABBC5937C1CD1942DC4457B9 /* Pods_SustainableScotty.framework */,
-				640533366CEBA72ECD0D7CED /* Pods_SustainableScotty_SustainableScottyUITests.framework */,
-				00DB14C42849B1511FBB97EF /* Pods_SustainableScottyTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FF747C041ECB1E240E6DBA3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				45A3FB60865F468C658842E9 /* Pods-SustainableScotty.debug.xcconfig */,
-				57B2899D4C5923F246DE2D73 /* Pods-SustainableScotty.release.xcconfig */,
-				88CEA466815446B6D086C90D /* Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig */,
-				B1570AD8C1577E7DC5470543 /* Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig */,
-				A52518A41B47996F1575B92B /* Pods-SustainableScottyTests.debug.xcconfig */,
-				0AF70E66BDCEC515C45ECA56 /* Pods-SustainableScottyTests.release.xcconfig */,
+				41387A1440279D05AB1DD6EF /* Pods-SustainableScotty.debug.xcconfig */,
+				C29A740391045D11747C4D24 /* Pods-SustainableScotty.release.xcconfig */,
+				87D2AFF2B63983297BF8F59F /* Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig */,
+				225CF34A6EA11EE22FFC6517 /* Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig */,
+				6E6807F89FDF4D975A7C0DBD /* Pods-SustainableScottyTests.debug.xcconfig */,
+				C35F868BAA5BEF2AEF750712 /* Pods-SustainableScottyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -290,11 +293,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AD5DB302706612400812705 /* Build configuration list for PBXNativeTarget "SustainableScotty" */;
 			buildPhases = (
-				C8FD6C60721202889A75F80A /* [CP] Check Pods Manifest.lock */,
+				264DF3C7684D3AA846E8EF01 /* [CP] Check Pods Manifest.lock */,
 				3AD5DB022706612100812705 /* Sources */,
 				3AD5DB032706612100812705 /* Frameworks */,
 				3AD5DB042706612100812705 /* Resources */,
-				FAB423D61930D1C9DE2CC1A4 /* [CP] Embed Pods Frameworks */,
+				8100183E3234DB964807F01E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,7 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AD5DB332706612400812705 /* Build configuration list for PBXNativeTarget "SustainableScottyTests" */;
 			buildPhases = (
-				F7A78833556D54E621AAC8DB /* [CP] Check Pods Manifest.lock */,
+				18DDE4145F0F61F5689DC967 /* [CP] Check Pods Manifest.lock */,
 				3AD5DB182706612400812705 /* Sources */,
 				3AD5DB192706612400812705 /* Frameworks */,
 				3AD5DB1A2706612400812705 /* Resources */,
@@ -328,11 +331,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AD5DB362706612400812705 /* Build configuration list for PBXNativeTarget "SustainableScottyUITests" */;
 			buildPhases = (
-				E2ED98A884E0B1BEB538D704 /* [CP] Check Pods Manifest.lock */,
+				0D531EE1ED25558AFAB3EF38 /* [CP] Check Pods Manifest.lock */,
 				3AD5DB222706612400812705 /* Sources */,
 				3AD5DB232706612400812705 /* Frameworks */,
 				3AD5DB242706612400812705 /* Resources */,
-				8216B78D10609D4CA4C75442 /* [CP] Embed Pods Frameworks */,
+				9C786E68B9EEBD6EE2D06B63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -393,8 +396,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AD5DB162706612300812705 /* LaunchScreen.storyboard in Resources */,
-				975EF3022709702D00406009 /* GoogleService-Info.plist in Resources */,
 				3AD5DB132706612300812705 /* Assets.xcassets in Resources */,
+				973829DC272211640000CFFC /* GoogleService-Info.plist in Resources */,
 				97B695A1270FAFF900232299 /* CommunityCell.xib in Resources */,
 				3AD5DB112706612100812705 /* Main.storyboard in Resources */,
 			);
@@ -417,46 +420,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8216B78D10609D4CA4C75442 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C8FD6C60721202889A75F80A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SustainableScotty-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E2ED98A884E0B1BEB538D704 /* [CP] Check Pods Manifest.lock */ = {
+		0D531EE1ED25558AFAB3EF38 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -478,7 +442,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F7A78833556D54E621AAC8DB /* [CP] Check Pods Manifest.lock */ = {
+		18DDE4145F0F61F5689DC967 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -500,7 +464,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FAB423D61930D1C9DE2CC1A4 /* [CP] Embed Pods Frameworks */ = {
+		264DF3C7684D3AA846E8EF01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SustainableScotty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8100183E3234DB964807F01E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -517,6 +503,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SustainableScotty/Pods-SustainableScotty-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9C786E68B9EEBD6EE2D06B63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -527,6 +530,7 @@
 				97B6959D270FAEE300232299 /* Structs.swift in Sources */,
 				3A5CEE23270A5790005AA8CA /* Helper.swift in Sources */,
 				3AD5DB0E2706612100812705 /* StartViewController.swift in Sources */,
+				97A58C6F2722179500FDE07C /* AllCommunitiesViewController.swift in Sources */,
 				3AF2903327066C87002AAC02 /* RewardsViewController.swift in Sources */,
 				3A5CEE19270A4CFD005AA8CA /* LogInViewController.swift in Sources */,
 				3AD5DB0A2706612100812705 /* AppDelegate.swift in Sources */,
@@ -710,7 +714,7 @@
 		};
 		3AD5DB312706612400812705 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45A3FB60865F468C658842E9 /* Pods-SustainableScotty.debug.xcconfig */;
+			baseConfigurationReference = 41387A1440279D05AB1DD6EF /* Pods-SustainableScotty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -739,7 +743,7 @@
 		};
 		3AD5DB322706612400812705 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57B2899D4C5923F246DE2D73 /* Pods-SustainableScotty.release.xcconfig */;
+			baseConfigurationReference = C29A740391045D11747C4D24 /* Pods-SustainableScotty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -768,7 +772,7 @@
 		};
 		3AD5DB342706612400812705 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A52518A41B47996F1575B92B /* Pods-SustainableScottyTests.debug.xcconfig */;
+			baseConfigurationReference = 6E6807F89FDF4D975A7C0DBD /* Pods-SustainableScottyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -793,7 +797,7 @@
 		};
 		3AD5DB352706612400812705 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AF70E66BDCEC515C45ECA56 /* Pods-SustainableScottyTests.release.xcconfig */;
+			baseConfigurationReference = C35F868BAA5BEF2AEF750712 /* Pods-SustainableScottyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -818,7 +822,7 @@
 		};
 		3AD5DB372706612400812705 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88CEA466815446B6D086C90D /* Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig */;
+			baseConfigurationReference = 87D2AFF2B63983297BF8F59F /* Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -841,7 +845,7 @@
 		};
 		3AD5DB382706612400812705 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1570AD8C1577E7DC5470543 /* Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig */;
+			baseConfigurationReference = 225CF34A6EA11EE22FFC6517 /* Pods-SustainableScotty-SustainableScottyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
