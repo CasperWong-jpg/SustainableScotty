@@ -11,6 +11,8 @@ class ActionsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Helper.createNavBar(navigationItem)
+
 
         // Do any additional setup after loading the view.
     }

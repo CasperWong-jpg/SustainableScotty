@@ -10,6 +10,7 @@ import UIKit
 class RewardsViewController: UIViewController {
 
     override func viewDidLoad() {
+        Helper.createNavBar(navigationItem)
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

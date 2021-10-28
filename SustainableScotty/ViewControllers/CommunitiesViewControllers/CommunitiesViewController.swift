@@ -23,6 +23,8 @@ class CommunitiesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        Helper.createNavBar(navigationItem)
+
         // Makes buttons rounded :)
         SearchCommunitiesButton.circleCorner()
         CreateCommunitiesButton.circleCorner()
