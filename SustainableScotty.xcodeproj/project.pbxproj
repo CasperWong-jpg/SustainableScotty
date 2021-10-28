@@ -130,6 +130,7 @@
 		3A5CEE1C270A4D45005AA8CA /* CommunitiesViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3AA9EB712722270B00E411B9 /* Cells */,
 				3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */,
 				97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */,
 			);
@@ -176,6 +177,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		3AA9EB712722270B00E411B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				97B6959E270FAFF900232299 /* CommunityCell.swift */,
+				97B6959F270FAFF900232299 /* CommunityCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		3AD5DAFD2706612100812705 = {
 			isa = PBXGroup;
 			children = (
@@ -204,7 +214,6 @@
 				3A5CEE21270A5709005AA8CA /* Helpers */,
 				97B6959A270FAACB00232299 /* Model */,
 				3AF2902927066B9C002AAC02 /* ViewControllers */,
-				97B6959B270FADEB00232299 /* Views */,
 				3AD5DB092706612100812705 /* AppDelegate.swift */,
 				3AD5DB0B2706612100812705 /* SceneDelegate.swift */,
 				3AD5DB0F2706612100812705 /* Main.storyboard */,
@@ -262,15 +271,6 @@
 				97B6959C270FAEE300232299 /* Structs.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		97B6959B270FADEB00232299 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				97B6959E270FAFF900232299 /* CommunityCell.swift */,
-				97B6959F270FAFF900232299 /* CommunityCell.xib */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		FF747C041ECB1E240E6DBA3B /* Pods */ = {
