@@ -9,6 +9,9 @@ import UIKit
 
 class ActionsViewController: UIViewController {
 
+    @IBOutlet weak var favActionsButton: UIButton!
+    @IBOutlet weak var quickActionsButton: UIButton!
+    @IBOutlet weak var waterActionsbutton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         Helper.createNavBar(navigationItem)

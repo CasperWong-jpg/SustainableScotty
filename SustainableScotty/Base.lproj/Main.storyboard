@@ -285,20 +285,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x2P-dW-aNG">
-                                <rect key="frame" x="0.0" y="88" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="x2P-dW-aNG">
+                                <rect key="frame" x="0.0" y="88" width="414" height="51"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EJa-0u-Ing">
+                                <rect key="frame" x="31" y="139" width="352" height="31"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6Z-a7-zBw">
+                                        <rect key="frame" x="0.0" y="0.0" width="84.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBy-sO-LNj">
+                                        <rect key="frame" x="89.5" y="0.0" width="84" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="hare.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLf-U0-KHW">
+                                        <rect key="frame" x="178.5" y="0.0" width="84" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="drop.fill" catalog="system" title=""/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3E-XZ-m6E">
+                                        <rect key="frame" x="267.5" y="0.0" width="84.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrow.3.trianglepath" catalog="system" title=""/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qLf-U0-KHW" firstAttribute="width" secondItem="S6Z-a7-zBw" secondAttribute="width" id="3de-TY-HkN"/>
+                                    <constraint firstItem="TBy-sO-LNj" firstAttribute="width" secondItem="S6Z-a7-zBw" secondAttribute="width" id="bV5-ki-IqK"/>
+                                    <constraint firstItem="j3E-XZ-m6E" firstAttribute="width" secondItem="S6Z-a7-zBw" secondAttribute="width" id="vCA-xP-qf8"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OV0-od-8Nu"/>
                         <color key="backgroundColor" name="BackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OV0-od-8Nu" firstAttribute="trailing" secondItem="x2P-dW-aNG" secondAttribute="trailing" id="0Tu-hN-BIs"/>
+                            <constraint firstItem="EJa-0u-Ing" firstAttribute="centerX" secondItem="GWZ-O1-thb" secondAttribute="centerX" id="LYX-n9-P02"/>
+                            <constraint firstItem="x2P-dW-aNG" firstAttribute="leading" secondItem="OV0-od-8Nu" secondAttribute="leading" id="NUh-fa-uAB"/>
+                            <constraint firstItem="EJa-0u-Ing" firstAttribute="width" secondItem="GWZ-O1-thb" secondAttribute="width" multiplier="85/100" id="eIh-Cx-1WQ"/>
+                            <constraint firstItem="EJa-0u-Ing" firstAttribute="top" secondItem="x2P-dW-aNG" secondAttribute="bottom" symbolic="YES" id="oEv-N4-kIq"/>
+                            <constraint firstItem="x2P-dW-aNG" firstAttribute="top" secondItem="OV0-od-8Nu" secondAttribute="top" id="vG3-5g-J4s"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o4T-i8-PEX"/>
+                    <connections>
+                        <outlet property="favActionsButton" destination="S6Z-a7-zBw" id="pjp-Lr-L0V"/>
+                        <outlet property="quickActionsButton" destination="TBy-sO-LNj" id="Vkl-QQ-2TK"/>
+                        <outlet property="recycleActionsButton" destination="GWZ-O1-thb" id="7Aw-5I-xYQ"/>
+                        <outlet property="waterActionsbutton" destination="qLf-U0-KHW" id="UMI-Sc-CCD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mfS-J5-vlr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="871" y="2273"/>
+            <point key="canvasLocation" x="869.56521739130437" y="2272.7678571428569"/>
         </scene>
         <!--Communities View Controller-->
         <scene sceneID="fKt-0O-WGV">
@@ -686,6 +729,9 @@
     <resources>
         <image name="AppIconRound" width="1811" height="1811"/>
         <image name="Search icon" width="19.5" height="20"/>
+        <image name="arrow.3.trianglepath" catalog="system" width="128" height="128"/>
+        <image name="drop.fill" catalog="system" width="101" height="128"/>
+        <image name="hare.fill" catalog="system" width="128" height="91"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="person.2.fill" catalog="system" width="128" height="80"/>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>
