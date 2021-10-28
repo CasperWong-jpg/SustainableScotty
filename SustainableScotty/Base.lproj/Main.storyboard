@@ -89,14 +89,71 @@
                     <view key="view" contentMode="scaleToFill" id="yLz-bF-8VX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMK-o4-Q89">
+                                <rect key="frame" x="20" y="113" width="414" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" name="TitleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Xv3-uO-hmk">
+                                <rect key="frame" x="52" y="179.5" width="310.5" height="188"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wky-A0-K9X">
+                                        <rect key="frame" x="0.0" y="0.0" width="310.5" height="36"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Kh-a2-bN2">
+                                        <rect key="frame" x="0.0" y="56" width="310.5" height="35.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trf-64-pXd">
+                                        <rect key="frame" x="0.0" y="111.5" width="310.5" height="36"/>
+                                        <color key="backgroundColor" name="ScottyGreen"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Log In"/>
+                                        <connections>
+                                            <action selector="loginTapped:" destination="o6c-5y-crD" eventType="touchUpInside" id="nUh-O7-yXE"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyN-9X-p4J">
+                                        <rect key="frame" x="0.0" y="167.5" width="310.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="eF8-s8-TSg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Trf-64-pXd" firstAttribute="height" secondItem="yLz-bF-8VX" secondAttribute="height" multiplier="1/25" id="25k-fi-MVq"/>
+                            <constraint firstItem="Xv3-uO-hmk" firstAttribute="top" secondItem="ZMK-o4-Q89" secondAttribute="bottom" multiplier="1.1" constant="8" symbolic="YES" id="93f-y5-av2"/>
+                            <constraint firstItem="7Kh-a2-bN2" firstAttribute="height" secondItem="yLz-bF-8VX" secondAttribute="height" multiplier="1/25" id="AQG-C9-cE5"/>
+                            <constraint firstItem="ZMK-o4-Q89" firstAttribute="width" secondItem="yLz-bF-8VX" secondAttribute="width" id="bDi-6j-ude"/>
+                            <constraint firstItem="Xv3-uO-hmk" firstAttribute="width" secondItem="yLz-bF-8VX" secondAttribute="width" multiplier="3/4" id="cKn-qe-Jdi"/>
+                            <constraint firstItem="ZMK-o4-Q89" firstAttribute="centerY" secondItem="yLz-bF-8VX" secondAttribute="centerY" multiplier="3/10" id="cQF-uX-zXf"/>
+                            <constraint firstItem="ZMK-o4-Q89" firstAttribute="leading" secondItem="eF8-s8-TSg" secondAttribute="leading" constant="20" id="fMv-Jd-eKU"/>
+                            <constraint firstItem="Xv3-uO-hmk" firstAttribute="centerX" secondItem="yLz-bF-8VX" secondAttribute="centerX" id="lCv-3C-pHC"/>
+                            <constraint firstItem="Wky-A0-K9X" firstAttribute="height" secondItem="yLz-bF-8VX" secondAttribute="height" multiplier="1/25" id="m7a-zC-RwU"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="exo-sl-KAY"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="Wky-A0-K9X" id="8pr-kP-Tlf"/>
+                        <outlet property="errorLabel" destination="qyN-9X-p4J" id="zdk-jB-4oi"/>
+                        <outlet property="loginButton" destination="Trf-64-pXd" id="SmR-Sg-DEU"/>
+                        <outlet property="passwordTextField" destination="7Kh-a2-bN2" id="y4g-fC-JCK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QuB-gE-PWr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="507" y="258"/>
+            <point key="canvasLocation" x="505.79710144927537" y="257.8125"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ZeQ-ew-Dnq">
@@ -119,11 +176,11 @@
             </objects>
             <point key="canvasLocation" x="1670" y="634"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="QTi-27-vcs">
             <objects>
                 <navigationController id="snu-T9-bRZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="hxe-W6-6bm"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="hxe-W6-6bm"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7Wh-3M-UhH">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -152,11 +209,11 @@
             </objects>
             <point key="canvasLocation" x="19" y="2273"/>
         </scene>
-        <!--Item-->
+        <!--Actions-->
         <scene sceneID="H6l-Mg-EOF">
             <objects>
                 <navigationController id="2eT-0f-n0H" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="KSh-y0-lRo"/>
+                    <tabBarItem key="tabBarItem" title="Actions" image="star.fill" catalog="system" id="KSh-y0-lRo"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YNG-ym-aIH">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -173,7 +230,7 @@
         <scene sceneID="Btb-nX-LY0">
             <objects>
                 <navigationController title="Communities Nav Controller" id="AnZ-kg-v7R" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="lVh-yX-2Tu"/>
+                    <tabBarItem key="tabBarItem" title="Communities" image="person.2.fill" catalog="system" id="lVh-yX-2Tu"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lR6-vc-tSa">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -186,11 +243,11 @@
             </objects>
             <point key="canvasLocation" x="1671" y="1557"/>
         </scene>
-        <!--Item-->
+        <!--Rewards-->
         <scene sceneID="AzB-Ov-8Ew">
             <objects>
                 <navigationController id="A9t-1i-58f" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="2fL-Wr-ZXV"/>
+                    <tabBarItem key="tabBarItem" title="Rewards" image="rosette" catalog="system" id="2fL-Wr-ZXV"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VaD-TK-ais">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -203,11 +260,11 @@
             </objects>
             <point key="canvasLocation" x="2565" y="1557"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="K7C-b5-Gr9">
             <objects>
                 <navigationController id="XCY-gF-JGI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="opg-OZ-996"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle.fill" catalog="system" id="opg-OZ-996"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Bj-av-Mya">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -441,7 +498,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLk-Po-La8">
-                                <rect key="frame" x="20" y="112" width="414" height="45"/>
+                                <rect key="frame" x="20" y="112" width="394" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="jxs-mz-juT"/>
                                 </constraints>
@@ -582,16 +639,15 @@
                             <constraint firstItem="Dd1-Jv-H1g" firstAttribute="centerY" secondItem="jDL-iR-lJJ" secondAttribute="centerY" multiplier="13/20" id="4hk-FD-wQr"/>
                             <constraint firstItem="xKz-hm-cyq" firstAttribute="centerX" secondItem="jDL-iR-lJJ" secondAttribute="centerX" id="7YH-US-6sZ"/>
                             <constraint firstItem="Dd1-Jv-H1g" firstAttribute="centerX" secondItem="jDL-iR-lJJ" secondAttribute="centerX" id="7q9-Hd-Ym8"/>
+                            <constraint firstItem="QMw-yi-XMc" firstAttribute="trailing" secondItem="fLk-Po-La8" secondAttribute="trailing" id="9Bf-W5-poM"/>
                             <constraint firstItem="i58-oH-VSf" firstAttribute="top" secondItem="Dd1-Jv-H1g" secondAttribute="bottom" multiplier="1.05" constant="8" symbolic="YES" id="DH9-bs-PtM"/>
                             <constraint firstItem="i58-oH-VSf" firstAttribute="centerX" secondItem="jDL-iR-lJJ" secondAttribute="centerX" id="Ev8-fF-9te"/>
                             <constraint firstItem="xKz-hm-cyq" firstAttribute="centerY" secondItem="jDL-iR-lJJ" secondAttribute="centerY" multiplier="35/20" id="Fyy-pO-q62"/>
                             <constraint firstItem="OKm-XP-4B7" firstAttribute="height" secondItem="jDL-iR-lJJ" secondAttribute="height" multiplier="1/20" id="GEG-wT-uz9"/>
                             <constraint firstItem="cWk-rv-wZt" firstAttribute="width" secondItem="jDL-iR-lJJ" secondAttribute="width" multiplier="6/10" id="Goi-XI-WjJ"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fLk-Po-La8" secondAttribute="trailing" constant="-20" id="H2k-5h-nzY"/>
                             <constraint firstItem="2TM-cc-47k" firstAttribute="centerX" secondItem="jDL-iR-lJJ" secondAttribute="centerX" id="I1R-Bt-84u"/>
                             <constraint firstItem="xKz-hm-cyq" firstAttribute="width" secondItem="jDL-iR-lJJ" secondAttribute="width" multiplier="6/10" id="Jrh-Qg-6Li"/>
                             <constraint firstItem="cWk-rv-wZt" firstAttribute="top" secondItem="i58-oH-VSf" secondAttribute="bottom" multiplier="1.05" constant="8" symbolic="YES" id="MED-wJ-dB5"/>
-                            <constraint firstItem="fLk-Po-La8" firstAttribute="width" secondItem="jDL-iR-lJJ" secondAttribute="width" id="Von-OO-gYI"/>
                             <constraint firstItem="fLk-Po-La8" firstAttribute="centerY" secondItem="jDL-iR-lJJ" secondAttribute="centerY" multiplier="3/10" id="avP-pl-hhH"/>
                             <constraint firstItem="2pd-Cv-bMH" firstAttribute="height" secondItem="jDL-iR-lJJ" secondAttribute="height" multiplier="1/20" id="jTB-YW-K26"/>
                             <constraint firstItem="2TM-cc-47k" firstAttribute="centerY" secondItem="jDL-iR-lJJ" secondAttribute="centerY" multiplier="33/20" id="kF9-dF-B9e"/>
@@ -623,6 +679,11 @@
     <resources>
         <image name="AppIconRound" width="1811" height="1811"/>
         <image name="Search icon" width="19.5" height="20"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="person.2.fill" catalog="system" width="128" height="80"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="rosette" catalog="system" width="106" height="128"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <namedColor name="BackgroundColor">
             <color red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -637,9 +698,6 @@
         </namedColor>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
