@@ -25,6 +25,7 @@
 		3AF2903327066C87002AAC02 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903227066C87002AAC02 /* RewardsViewController.swift */; };
 		3AF2903527066C9B002AAC02 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903427066C9B002AAC02 /* ProfileViewController.swift */; };
 		973829DC272211640000CFFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 973829DB272211640000CFFC /* GoogleService-Info.plist */; };
+		97A36274272F491E00A21A4B /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A36273272F491E00A21A4B /* Leaderboard.swift */; };
 		97A58C6F2722179500FDE07C /* AllCommunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */; };
 		97B6959D270FAEE300232299 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959C270FAEE300232299 /* Structs.swift */; };
 		97B695A0270FAFF900232299 /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959E270FAFF900232299 /* CommunityCell.swift */; };
@@ -81,6 +82,7 @@
 		87D2AFF2B63983297BF8F59F /* Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9183B12AC8B02734F419CF18 /* Pods_SustainableScotty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScotty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		973829DB272211640000CFFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97A36273272F491E00A21A4B /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
 		97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCommunitiesViewController.swift; sourceTree = "<group>"; };
 		97B6959C270FAEE300232299 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		97B6959E270FAFF900232299 /* CommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCell.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				3AA9EB712722270B00E411B9 /* Cells */,
 				3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */,
 				97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */,
+				97A36273272F491E00A21A4B /* Leaderboard.swift */,
 			);
 			path = CommunitiesViewControllers;
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 				3A5CEE23270A5790005AA8CA /* Helper.swift in Sources */,
 				3AD5DB0E2706612100812705 /* StartViewController.swift in Sources */,
 				97A58C6F2722179500FDE07C /* AllCommunitiesViewController.swift in Sources */,
+				97A36274272F491E00A21A4B /* Leaderboard.swift in Sources */,
 				3AF2903327066C87002AAC02 /* RewardsViewController.swift in Sources */,
 				3A5CEE19270A4CFD005AA8CA /* LogInViewController.swift in Sources */,
 				3AD5DB0A2706612100812705 /* AppDelegate.swift in Sources */,
@@ -718,9 +722,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G8R4N3N8GU;
+				DEVELOPMENT_TEAM = 5PMXASNV9X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SustainableScotty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -735,6 +740,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sophialau.SustainableScotty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -747,9 +753,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G8R4N3N8GU;
+				DEVELOPMENT_TEAM = 5PMXASNV9X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SustainableScotty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -764,6 +771,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sophialau.SustainableScotty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
