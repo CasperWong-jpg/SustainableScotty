@@ -6,11 +6,29 @@
 //
 
 import UIKit
+import Firebase
 
 class Leaderboard: UIViewController {
+    
+    let db = Firestore.firestore()
+    
+    var CommunityName: String = "Error getting community"
+    
+    var joined: Bool = true
 
+    @IBOutlet weak var LeaderboardTitle: UILabel!
+    
+    @IBOutlet weak var LeaderboardSize: UILabel!
+    
+    @IBOutlet weak var TableView: UITableView!
+    
+    @IBOutlet weak var JoinLeaveButton: UIButton!
+    
+    @IBOutlet weak var InviteOthers: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        LeaderboardTitle.text = "\(CommunityName) !!"
 
         // Do any additional setup after loading the view.
     }

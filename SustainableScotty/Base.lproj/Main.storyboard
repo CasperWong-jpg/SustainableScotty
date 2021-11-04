@@ -444,6 +444,7 @@
                         <outlet property="CommunitiesTableView" destination="kND-qa-2nk" id="Msg-sQ-NdR"/>
                         <outlet property="CreateCommunitiesButton" destination="pv6-VN-rk0" id="xuF-fF-B8W"/>
                         <outlet property="SearchCommunitiesButton" destination="alY-4q-SDb" id="Q3v-pX-juY"/>
+                        <segue destination="0JW-Wa-uYx" kind="show" identifier="SwitchLeaderboard" id="V08-ou-94T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TME-Ax-v2K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -519,6 +520,7 @@
                         <outlet property="CommunitiesTableView" destination="RIN-wc-BNk" id="GFm-hM-BUh"/>
                         <outlet property="CreateCommunitiesButton" destination="xx8-OT-Nyk" id="QzK-1f-423"/>
                         <outlet property="SearchCommunitiesButton" destination="wXt-mR-9zS" id="T1g-pp-1ia"/>
+                        <segue destination="0JW-Wa-uYx" kind="show" identifier="SwitchLeaderboard" id="ceD-NQ-AJO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z54-35-OrZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -792,8 +794,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="CHJ-WZ-D1O"/>
                     <connections>
-                        <outlet property="LeaderboardSize" destination="FeQ-R8-xn5" id="q2L-3e-avM"/>
-                        <outlet property="LeaderboardTitle" destination="kHu-7x-wrd" id="WF5-jN-wcU"/>
+                        <outlet property="InviteOthers" destination="Q1l-DN-YSg" id="TJp-NM-kQI"/>
+                        <outlet property="JoinLeaveButton" destination="chc-rS-qhU" id="NVU-WL-gfn"/>
+                        <outlet property="LeaderboardSize" destination="FeQ-R8-xn5" id="cyb-zz-Odo"/>
+                        <outlet property="LeaderboardTitle" destination="kHu-7x-wrd" id="vhJ-2J-Wyu"/>
+                        <outlet property="TableView" destination="5A3-VV-n1q" id="N60-b2-hEk"/>
                         <outlet property="inviteOthers" destination="Q1l-DN-YSg" id="3DX-RG-d2L"/>
                         <outlet property="leaderboardJoinLeave" destination="chc-rS-qhU" id="MgM-JJ-aAF"/>
                         <outlet property="tableView" destination="5A3-VV-n1q" id="lBP-Dv-88h"/>
@@ -804,6 +809,9 @@
             <point key="canvasLocation" x="2564" y="2988"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ceD-NQ-AJO"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="AppIconRound" width="1811" height="1811"/>
         <image name="Search icon" width="19.5" height="20"/>

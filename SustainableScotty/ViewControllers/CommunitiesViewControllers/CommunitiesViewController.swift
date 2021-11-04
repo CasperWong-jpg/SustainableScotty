@@ -88,14 +88,10 @@ extension CommunitiesViewController: UITableViewDelegate{
         performSegue(withIdentifier: "SwitchLeaderboard", sender: self)
     }
     
-    /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destination = segue.destination as? SpecificLeaderboard {
-            destination.CommunityName = communities[(tableView.indexPathForSelectedRow?.row)!].title
-            tableView.deselectRow(at: tableView.indexPathForSelectedRow!, animated: true)
+        if let destination = segue.destination as? Leaderboard {
+            destination.CommunityName = communities[(CommunitiesTableView.indexPathForSelectedRow?.row)!].title
+            CommunitiesTableView.deselectRow(at: CommunitiesTableView.indexPathForSelectedRow!, animated: true)
         }
     }
-     */
-    
-    
 }
