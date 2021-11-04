@@ -319,6 +319,20 @@
                                     <constraint firstItem="j3E-XZ-m6E" firstAttribute="width" secondItem="S6Z-a7-zBw" secondAttribute="width" id="vCA-xP-qf8"/>
                                 </constraints>
                             </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="187" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gAO-j1-5gu">
+                                <rect key="frame" x="0.0" y="178" width="414" height="635"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="11" reuseIdentifier="ReusableActionCell" id="1BO-Wl-OMo">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="187"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1BO-Wl-OMo" id="OWn-aa-mAw">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="187"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OV0-od-8Nu"/>
                         <color key="backgroundColor" name="BackgroundColor"/>
@@ -326,8 +340,12 @@
                             <constraint firstItem="OV0-od-8Nu" firstAttribute="trailing" secondItem="x2P-dW-aNG" secondAttribute="trailing" id="0Tu-hN-BIs"/>
                             <constraint firstItem="EJa-0u-Ing" firstAttribute="centerX" secondItem="GWZ-O1-thb" secondAttribute="centerX" id="LYX-n9-P02"/>
                             <constraint firstItem="x2P-dW-aNG" firstAttribute="leading" secondItem="OV0-od-8Nu" secondAttribute="leading" id="NUh-fa-uAB"/>
+                            <constraint firstItem="gAO-j1-5gu" firstAttribute="bottom" secondItem="OV0-od-8Nu" secondAttribute="bottom" id="VJ4-7E-3dc"/>
+                            <constraint firstItem="gAO-j1-5gu" firstAttribute="centerX" secondItem="GWZ-O1-thb" secondAttribute="centerX" id="dtv-En-CVy"/>
                             <constraint firstItem="EJa-0u-Ing" firstAttribute="width" secondItem="GWZ-O1-thb" secondAttribute="width" multiplier="85/100" id="eIh-Cx-1WQ"/>
+                            <constraint firstItem="gAO-j1-5gu" firstAttribute="top" secondItem="EJa-0u-Ing" secondAttribute="bottom" constant="8" symbolic="YES" id="jBp-eP-Cvq"/>
                             <constraint firstItem="EJa-0u-Ing" firstAttribute="top" secondItem="x2P-dW-aNG" secondAttribute="bottom" symbolic="YES" id="oEv-N4-kIq"/>
+                            <constraint firstItem="gAO-j1-5gu" firstAttribute="width" secondItem="GWZ-O1-thb" secondAttribute="width" id="uIZ-Vh-pvZ"/>
                             <constraint firstItem="x2P-dW-aNG" firstAttribute="top" secondItem="OV0-od-8Nu" secondAttribute="top" id="vG3-5g-J4s"/>
                         </constraints>
                     </view>
@@ -335,13 +353,13 @@
                     <connections>
                         <outlet property="favActionsButton" destination="S6Z-a7-zBw" id="pjp-Lr-L0V"/>
                         <outlet property="quickActionsButton" destination="TBy-sO-LNj" id="Vkl-QQ-2TK"/>
-                        <outlet property="recycleActionsButton" destination="GWZ-O1-thb" id="7Aw-5I-xYQ"/>
+                        <outlet property="tableView" destination="gAO-j1-5gu" id="q2S-jH-GtO"/>
                         <outlet property="waterActionsbutton" destination="qLf-U0-KHW" id="UMI-Sc-CCD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mfS-J5-vlr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="869.56521739130437" y="2272.7678571428569"/>
+            <point key="canvasLocation" x="869.56521739130437" y="2272.0982142857142"/>
         </scene>
         <!--Communities View Controller-->
         <scene sceneID="fKt-0O-WGV">
@@ -751,6 +769,9 @@
         </namedColor>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
