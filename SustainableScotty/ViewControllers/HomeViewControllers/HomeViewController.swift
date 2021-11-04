@@ -6,8 +6,15 @@
 //
 
 import UIKit
+import Firebase
 
 class HomeViewController: UIViewController {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    var actions: [Action] = [
+        Action(action_title: <#T##String#>, times_logged: <#T##Int#>, coins: <#T##Int#>)
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()

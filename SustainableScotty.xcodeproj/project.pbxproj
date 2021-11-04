@@ -29,6 +29,7 @@
 		97B6959D270FAEE300232299 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959C270FAEE300232299 /* Structs.swift */; };
 		97B695A0270FAFF900232299 /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959E270FAFF900232299 /* CommunityCell.swift */; };
 		97B695A1270FAFF900232299 /* CommunityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97B6959F270FAFF900232299 /* CommunityCell.xib */; };
+		B201505C273493A900A28C60 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201505B273493A900A28C60 /* Action.swift */; };
 		C201B7900383CD539CD986F0 /* Pods_SustainableScottyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74413B380221D53E6AA0B204 /* Pods_SustainableScottyTests.framework */; };
 		E240E0A2B3AA110FB458C09A /* Pods_SustainableScotty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9183B12AC8B02734F419CF18 /* Pods_SustainableScotty.framework */; };
 		EFCE2610B59B21159B272C0D /* Pods_SustainableScotty_SustainableScottyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002942D0F8B05745EC1736D3 /* Pods_SustainableScotty_SustainableScottyUITests.framework */; };
@@ -85,6 +86,7 @@
 		97B6959C270FAEE300232299 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		97B6959E270FAFF900232299 /* CommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCell.swift; sourceTree = "<group>"; };
 		97B6959F270FAFF900232299 /* CommunityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunityCell.xib; sourceTree = "<group>"; };
+		B201505B273493A900A28C60 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		C29A740391045D11747C4D24 /* Pods-SustainableScotty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty.release.xcconfig"; path = "Target Support Files/Pods-SustainableScotty/Pods-SustainableScotty.release.xcconfig"; sourceTree = "<group>"; };
 		C35F868BAA5BEF2AEF750712 /* Pods-SustainableScottyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScottyTests.release.xcconfig"; path = "Target Support Files/Pods-SustainableScottyTests/Pods-SustainableScottyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -269,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				97B6959C270FAEE300232299 /* Structs.swift */,
+				B201505B273493A900A28C60 /* Action.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -540,6 +543,7 @@
 				3AF2903127066C7C002AAC02 /* CommunitiesViewController.swift in Sources */,
 				97B695A0270FAFF900232299 /* CommunityCell.swift in Sources */,
 				3AF2903527066C9B002AAC02 /* ProfileViewController.swift in Sources */,
+				B201505C273493A900A28C60 /* Action.swift in Sources */,
 				3AF2902D27066C5F002AAC02 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
