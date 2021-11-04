@@ -25,3 +25,8 @@ struct K {
     static let LeaderboardCellIdentifier = "ReusableLeaderboardCell"
     static let LeaderboardNibName = "LeaderboardCell"
 }
+
+struct Message {
+    let action: String
+    let logged: String
+}
