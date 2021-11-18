@@ -26,7 +26,10 @@
 		3AF2903127066C7C002AAC02 /* CommunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */; };
 		3AF2903327066C87002AAC02 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903227066C87002AAC02 /* RewardsViewController.swift */; };
 		3AF2903527066C9B002AAC02 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2903427066C9B002AAC02 /* ProfileViewController.swift */; };
+		971AF68527471DF900CD2077 /* CreateLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971AF68427471DF900CD2077 /* CreateLeaderboard.swift */; };
 		973829DC272211640000CFFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 973829DB272211640000CFFC /* GoogleService-Info.plist */; };
+		974BD65627471283001379D1 /* LeaderboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974BD65427471283001379D1 /* LeaderboardCell.swift */; };
+		974BD65727471283001379D1 /* LeaderboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 974BD65527471283001379D1 /* LeaderboardCell.xib */; };
 		97A36274272F491E00A21A4B /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A36273272F491E00A21A4B /* Leaderboard.swift */; };
 		97A58C6F2722179500FDE07C /* AllCommunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */; };
 		97B6959D270FAEE300232299 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B6959C270FAEE300232299 /* Structs.swift */; };
@@ -85,7 +88,10 @@
 		74413B380221D53E6AA0B204 /* Pods_SustainableScottyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScottyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D2AFF2B63983297BF8F59F /* Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SustainableScotty-SustainableScottyUITests/Pods-SustainableScotty-SustainableScottyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9183B12AC8B02734F419CF18 /* Pods_SustainableScotty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainableScotty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		971AF68427471DF900CD2077 /* CreateLeaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLeaderboard.swift; sourceTree = "<group>"; };
 		973829DB272211640000CFFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		974BD65427471283001379D1 /* LeaderboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardCell.swift; sourceTree = "<group>"; };
+		974BD65527471283001379D1 /* LeaderboardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaderboardCell.xib; sourceTree = "<group>"; };
 		97A36273272F491E00A21A4B /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
 		97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCommunitiesViewController.swift; sourceTree = "<group>"; };
 		97B6959C270FAEE300232299 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
@@ -140,6 +146,7 @@
 				3AF2903027066C7C002AAC02 /* CommunitiesViewController.swift */,
 				97A58C6E2722179500FDE07C /* AllCommunitiesViewController.swift */,
 				97A36273272F491E00A21A4B /* Leaderboard.swift */,
+				971AF68427471DF900CD2077 /* CreateLeaderboard.swift */,
 			);
 			path = CommunitiesViewControllers;
 			sourceTree = "<group>";
@@ -199,6 +206,8 @@
 			children = (
 				97B6959E270FAFF900232299 /* CommunityCell.swift */,
 				97B6959F270FAFF900232299 /* CommunityCell.xib */,
+				974BD65427471283001379D1 /* LeaderboardCell.swift */,
+				974BD65527471283001379D1 /* LeaderboardCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -417,6 +426,7 @@
 				973829DC272211640000CFFC /* GoogleService-Info.plist in Resources */,
 				3A9E1536272F31DA001BB13D /* ActionsCell.xib in Resources */,
 				97B695A1270FAFF900232299 /* CommunityCell.xib in Resources */,
+				974BD65727471283001379D1 /* LeaderboardCell.xib in Resources */,
 				3AD5DB112706612100812705 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,6 +560,7 @@
 				3AD5DB0E2706612100812705 /* StartViewController.swift in Sources */,
 				97A58C6F2722179500FDE07C /* AllCommunitiesViewController.swift in Sources */,
 				97A36274272F491E00A21A4B /* Leaderboard.swift in Sources */,
+				971AF68527471DF900CD2077 /* CreateLeaderboard.swift in Sources */,
 				3AF2903327066C87002AAC02 /* RewardsViewController.swift in Sources */,
 				3A5CEE19270A4CFD005AA8CA /* LogInViewController.swift in Sources */,
 				3AD5DB0A2706612100812705 /* AppDelegate.swift in Sources */,
@@ -559,6 +570,7 @@
 				3AF2903127066C7C002AAC02 /* CommunitiesViewController.swift in Sources */,
 				3A9E1535272F31DA001BB13D /* ActionsCell.swift in Sources */,
 				97B695A0270FAFF900232299 /* CommunityCell.swift in Sources */,
+				974BD65627471283001379D1 /* LeaderboardCell.swift in Sources */,
 				3AF2903527066C9B002AAC02 /* ProfileViewController.swift in Sources */,
 				3AF2902D27066C5F002AAC02 /* HomeViewController.swift in Sources */,
 			);

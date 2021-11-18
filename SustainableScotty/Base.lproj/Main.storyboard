@@ -361,6 +361,22 @@
             </objects>
             <point key="canvasLocation" x="869.56521739130437" y="2272.0982142857142"/>
         </scene>
+        <!--Create Leaderboard-->
+        <scene sceneID="NNA-5q-waM">
+            <objects>
+                <viewController id="OkR-Ya-95l" customClass="CreateLeaderboard" customModule="SustainableScotty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vbl-Fl-vPB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hgg-vz-yjc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OcR-Co-2sf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S5p-he-rDh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1670" y="3753"/>
+        </scene>
         <!--Communities View Controller-->
         <scene sceneID="fKt-0O-WGV">
             <objects>
@@ -412,6 +428,9 @@
                                     <color key="titleColor" name="SubtitleColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="OkR-Ya-95l" kind="show" id="Ya0-RT-zR4"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kND-qa-2nk">
                                 <rect key="frame" x="0.0" y="237" width="414" height="491"/>
@@ -449,7 +468,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TME-Ax-v2K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1669.5652173913045" y="2272.0982142857142"/>
+            <point key="canvasLocation" x="1670" y="2956"/>
         </scene>
         <!--All Communities View Controller-->
         <scene sceneID="idL-Vc-3uB">
@@ -502,6 +521,9 @@
                                     <color key="titleColor" name="SubtitleColor"/>
                                     <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="OkR-Ya-95l" kind="show" id="vv8-v4-E9A"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Communities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="No9-Ah-rIf">
                                 <rect key="frame" x="20" y="202" width="147" height="25"/>
@@ -525,7 +547,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z54-35-OrZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1669.5652173913045" y="2987.9464285714284"/>
+            <point key="canvasLocation" x="2564" y="2956"/>
         </scene>
         <!--Rewards View Controller-->
         <scene sceneID="2Qw-pX-fce">
@@ -800,17 +822,17 @@
                         <outlet property="LeaderboardTitle" destination="kHu-7x-wrd" id="vhJ-2J-Wyu"/>
                         <outlet property="TableView" destination="5A3-VV-n1q" id="N60-b2-hEk"/>
                         <outlet property="inviteOthers" destination="Q1l-DN-YSg" id="3DX-RG-d2L"/>
-                        <outlet property="leaderboardJoinLeave" destination="chc-rS-qhU" id="MgM-JJ-aAF"/>
                         <outlet property="tableView" destination="5A3-VV-n1q" id="lBP-Dv-88h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kh8-Vh-NBw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2564" y="2988"/>
+            <point key="canvasLocation" x="2564" y="3753"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="ceD-NQ-AJO"/>
+        <segue reference="vv8-v4-E9A"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AppIconRound" width="1811" height="1811"/>
